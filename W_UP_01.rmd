@@ -54,9 +54,11 @@ In the graph shown above it shows that skill did more pushups then the line.
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 
-  ```{r}
-basicCN <- ggplot(mydata,aes(x=pushups,y=position))
-```
+
+
+
+
+
 
   
   
@@ -78,7 +80,7 @@ t.test(pushups~position,data=mydata)
 ```
 
 
-I would have to say it is a HA because there is a significant Difference between the two positions the mean in the line group is 17.13 and in the skill group it is 49.73, The pre-value is 9.4. 
+I would have to say it is a HA because there is a significant Difference between the two positions the mean in the line group is 17.13 and in the skill group it is 49.73, The pre-value is 9.4.  
 
 
 
@@ -86,4 +88,10 @@ I would have to say it is a HA because there is a significant Difference between
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+
+Yes there is a relationship if the pushups are low it is related to the line if the pushups are higher it is related to the skill position based off the graphs. My answer is that it is a alternative hypothesis (ha) because it states the the lines pushups are significantly different then skilled position.
+
+
+
 
